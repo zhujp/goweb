@@ -21,9 +21,13 @@ func main() {
 	//		fmt.Println("k is %s", k)
 	//		fmt.Println("v is %s", v)
 	//	}
-	for k, _ := range usernames {
-		fmt.Println("k is %s", k)
+	//	for k, _ := range usernames {
+	//		fmt.Println("k is %s", k)
 
+	//	}
+
+	for i := range usernames {
+		fmt.Println(i)
 	}
 
 }
